@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #FDFCF8;
+    --text-main: #2D3436;
+    --text-muted: #747D8C;
+    --brand-accent: #F27D26;
+    --border-subtle: #E0E2D9;
+    --status-success: #27AE60;
+  }
+  
+  body {
+    background-color: #FDFCF8;
+    color: #2D3436;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-olchiki {
+  font-family: 'Noto Sans Ol Chiki', sans-serif;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

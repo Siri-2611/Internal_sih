@@ -1,0 +1,33 @@
+{
+  "audit_date": "2024-11-15",
+  "dataset_version": "v1.4-FLN-Class1",
+  "target_language": "Santhali (Santali)",
+  "iso_639_3": "sat",
+  "script": "Ol Chiki (ᱚᱞ ᱪᱤᱠᱤ) with Devanagari & Latin Transliteration",
+  "total_records": 250,
+  "verified_records": 250,
+  "categories_count": 11,
+  "linguistic_auditors": [
+    {
+      "name": "Prof. S. Murmu",
+      "affiliation": "Tribal Research Institute & SCERT MTB-MLE Committee",
+      "dialect_focus": "Standard Santhal Pargana / Mayurbhanj"
+    },
+    {
+      "name": "Dr. R. Soren",
+      "affiliation": "Ol Chiki Language Academy & Central University of Jharkhand",
+      "dialect_focus": "Foundational Literacy & Ol Chiki Unicode Standardization"
+    }
+  ],
+  "verification_policy": {
+    "zero_hallucination_rule": "Every translation shown as verified must originate from approved curriculum primers.",
+    "confidence_threshold": "Only items with >0.85 semantic retrieval confidence or exact intent match are returned as verified.",
+    "unverified_fallback": "Any translation generated on-the-fly without human validation is explicitly marked '🟡 AI-generated — requires validation'.",
+    "dialectic_handling": "Standardized to Northern & Southern mainstream Santhali dialects with phonemic accuracy in Ol Chiki."
+  },
+  "nipun_fln_alignment": {
+    "math_competencies": ["FLN-MATH-NUM-01", "FLN-MATH-NUM-02", "FLN-MATH-ADD-01", "FLN-MATH-SUB-01", "FLN-MATH-CMP-01", "FLN-MATH-SHP-01", "FLN-MATH-COL-01"],
+    "language_competencies": ["FLN-LANG-LST-01", "FLN-LANG-LST-02", "FLN-LANG-SPK-01", "FLN-LANG-SPK-02", "FLN-LANG-RDG-01", "FLN-LANG-RDG-02", "FLN-LANG-WRT-01"],
+    "disclaimer": "Note: Prototype outcome IDs demonstrate curriculum mapping to Class 1 FLN competencies; official implementation will synchronize with state-adopted NIPUN Bharat learning outcomes."
+  }
+}

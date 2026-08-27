@@ -1,0 +1,6 @@
+{
+  "name": "BhashaMitra",
+  "description": "Mother-Tongue AI Assistant for Tribal Classrooms - Hindi to Santhali (Ol Chiki) bridge for Class 1 FLN teachers with offline-first voice, lessons, worksheets, and human-in-the-loop validation.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
