@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# PALASH AI
 
-# Run and deploy your AI Studio app
+PALASH AI is an AI-assisted educational platform designed to help
+Hindi-medium primary-school teachers teach tribal-language-speaking
+children through mother-tongue-based multilingual education.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/dc8d8ea3-5197-4dd0-b441-3d72cce32c98
+- Hindi to Santhali translation
+- Mother-tongue-based learning
+- Foundational Literacy and Numeracy (FLN)
+- AI-assisted teaching support
+- Class 1 learning content
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+Install the dependencies:
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
